@@ -120,6 +120,7 @@ button {
 	margin: 5px;
 	text-align: center;
 	text-shadow: 2px 2px #92B4F4;
+	position: static;
 }
 
 .headerWrapper {
@@ -216,7 +217,7 @@ a .logo:hover {
   Media Queries
 ==================================== */
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 	
 	.row {
 		display: flex;
@@ -235,7 +236,7 @@ a .logo:hover {
 
 }
 
-@media (min-width: 980px) {
+@media (max-width: 980px) {
 	
 	.row {
 		display: flex;
@@ -252,7 +253,7 @@ a .logo:hover {
 		float: left;
 	}
 
-	
+	/* I wrote my css mobile first, all original css is max width 640px */
 
 }
 
